@@ -11,7 +11,7 @@ import (
 
 // adding comments
 func ImgColors() {
-	reader, err := os.Open("colors_labeled.jpg")
+	reader, err := os.Open("colors.jpg")
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return
